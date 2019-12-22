@@ -1,0 +1,41 @@
+{
+  "name": "@yllet/babel-preset-main",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/yllet/babel-preset-main/issues"
+  },
+  "repository": {
+    "url": "https://github.com/yllet/babel-preset-main",
+    "type": "git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-transform-object-assign": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/runtime": "^7.7.7",
+    "core-js": "^3.6.0"
+  },
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "semistandard index.js",
+    "test": "npm audit"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "semistandard": "^14.2.0"
+  }
+}
