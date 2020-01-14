@@ -1,7 +1,7 @@
 {
   "name": "@yllet/babel-preset-main",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "bugs": {
