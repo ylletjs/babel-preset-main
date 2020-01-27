@@ -5,29 +5,29 @@ module.exports = function() {
   return {
     presets: [
       [
-        "@babel/preset-env",
+        require('@babel/preset-env'),
         {
-          useBuiltIns: "entry",
+          useBuiltIns: 'entry',
           corejs: 3,
-          modules: process.env.BABEL_ENV === "esm" ? false : "cjs",
-          exclude: ["transform-typeof-symbol"]
+          modules: process.env.BABEL_ENV === 'esm' ? false : 'cjs',
+          exclude: ['transform-typeof-symbol']
         }
       ],
-      ["@babel/preset-react", { useBuiltIns: true }]
+      [require('@babel/preset-react'), { useBuiltIns: true }]
     ],
     plugins: [
-      ["@babel/plugin-proposal-class-properties", { loose: true }],
-      ["@babel/plugin-proposal-object-rest-spread", { useBuiltIns: true }],
+      [require('@babel/plugin-proposal-class-properties'), { loose: true }],
+      [require('@babel/plugin-proposal-object-rest-spread'), { useBuiltIns: true }],
       [
-        "@babel/plugin-transform-runtime",
+        require('@babel/plugin-transform-runtime'),
         {
           corejs: false,
           helpers: false,
-          version: require("@babel/runtime/package.json").version,
+          version: require('@babel/runtime/package.json').version,
           regenerator: true
         }
       ],
-      "@babel/plugin-transform-object-assign"
+      require('@babel/plugin-transform-object-assign')
     ]
   };
 };
