@@ -1,7 +1,7 @@
 {
   "name": "@yllet/babel-preset-main",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "bugs": {
@@ -25,18 +25,18 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "semistandard": "^14.2.0"
+    "semistandard": "^16.0.1"
   },
   "dependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
-    "@babel/plugin-transform-object-assign": "^7.10.1",
-    "@babel/plugin-transform-runtime": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "@babel/preset-react": "^7.10.1",
-    "@babel/runtime": "^7.10.2",
-    "core-js": "^3.6.5"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-transform-object-assign": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "core-js": "^3.19.3"
   }
 }
