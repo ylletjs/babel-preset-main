@@ -16,7 +16,7 @@ module.exports = function () {
       [require('@babel/preset-react'), { useBuiltIns: true }]
     ],
     plugins: [
-      [require('@babel/plugin-proposal-class-properties'), { loose: true }],
+      require('@babel/plugin-proposal-class-properties'),
       [require('@babel/plugin-proposal-object-rest-spread'), { useBuiltIns: true }],
       [
         require('@babel/plugin-transform-runtime'),
